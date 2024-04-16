@@ -16,6 +16,15 @@ public class EVA2_24_ADIVINAR_WHILE {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int nume = 5;
+        int valor = 0;
+        Scanner captu = new Scanner (System.in);
+        
+        while(nume != valor){
+            System.out.println("¿cual es el numero? (entre 1 y 10:");
+            valor = captu.nextInt();
+        }
+        System.out.println("GG");
     }
     
 }
